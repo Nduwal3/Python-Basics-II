@@ -1,0 +1,25 @@
+# magine you are designing a banking application. What would a customer look like? 
+# What attributes would she have? What methods would she have? 
+
+
+
+A customer would have their personal information , their Bank information  and account information
+Some aatributes a customer will have are as follows:
+1. customer_name
+2. address
+3. email
+4. account_created_date
+5. last_tranaction_date
+6. last_payment
+7. is_active
+8. account_number
+9. account_type
+
+some methods she wll have are:
+1. get_account_information()
+2. get_user_information()
+3. edit_user_information()
+4. check_balance()
+5. withdraw_balance()
+6. add_balance()
+
