@@ -9,7 +9,7 @@ extension = file_name[-3:]
 print(extension)
 
 # for arbitary length file extension
-find_extension = lambda filename: filename.split('.')[1]
+find_extension = lambda filename: filename.split('.')[-1]
 
 filename = "image.jpeg"
 ext = find_extension(filename)
