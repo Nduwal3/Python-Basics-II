@@ -4,7 +4,7 @@
 def is_prime(num):
     num_is_prime = False
     if num > 1:
-        for n in range(2, num ):
+        for n in range(2, num**0.5 ):
             if(num % n) == 0:
                 num_is_prime = False 
                 break               
