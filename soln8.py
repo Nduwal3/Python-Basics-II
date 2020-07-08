@@ -3,8 +3,10 @@
 
 def is_prime(num):
     num_is_prime = False
+    half_of_num = num//2
     if num > 1:
-        for n in range(2, num ):
+        # check till half of number
+        for n in range(2, half_of_num):
             if(num % n) == 0:
                 num_is_prime = False 
                 break               
